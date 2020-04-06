@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/39.CombinationSum/39.CombinationSum.iml" filepath="$PROJECT_DIR$/39.CombinationSum/39.CombinationSum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/40.CombinationSum2/40.CombinationSum2.iml" filepath="$PROJECT_DIR$/40.CombinationSum2/40.CombinationSum2.iml" />
       <module fileurl="file://$PROJECT_DIR$/42.Trap/42.Trap.iml" filepath="$PROJECT_DIR$/42.Trap/42.Trap.iml" />
       <module fileurl="file://$PROJECT_DIR$/45.Jump/45.Jump.iml" filepath="$PROJECT_DIR$/45.Jump/45.Jump.iml" />
       <module fileurl="file://$PROJECT_DIR$/48.Rotate/48.Rotate.iml" filepath="$PROJECT_DIR$/48.Rotate/48.Rotate.iml" />
