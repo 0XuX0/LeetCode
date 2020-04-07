@@ -23,7 +23,6 @@ public class Solution {
         lastNode.next = curNode;
         int curPos = 1;
         while (curNode != null) {
-            // 考虑 m 是开头的情况
             if (curPos == m) {
                 tmpStartBefore = lastNode;
                 tmpEndBefore = curNode;
@@ -32,12 +31,10 @@ public class Solution {
                 curNode.next = tmpEnd;
             }
 
-            // 当前位置位于 m n 之间时反转处理
             if (curPos > m && curPos <= n) {
                 curNode.next = lastNode;
             }
 
-            // 考虑 n 是结尾的情况
             if (curPos == n) {
                 tmpStart.next = curNode;
                 tmpEnd.next = nextNode;
@@ -45,7 +42,6 @@ public class Solution {
                 break;
             }
 
-            //往后挪一步
             lastNode = curNode;
             curNode = nextNode;
             nextNode = nextNode.next;
