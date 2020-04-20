@@ -8,17 +8,20 @@ import java.util.List;
  * @Date 2020/4/20
  **/
 public class Solution {
-    List<List<String>> res;
-    public List<List<String>> solveNQueens(int n) {
+    static List<List<String>> res;
+    static int total = 0;
+    public static List<List<String>> solveNQueens(int n) {
         res = new ArrayList<>();
         boolean[][] nums = new boolean[n][n];
+        backTrack(nums, 0);
         return res;
     }
 
-    private void backTrack(boolean[][] nums, int curRow) {
+    private static void backTrack(boolean[][] nums, int curRow) {
         if (curRow == nums.length) {
             //布尔类型转换String
-            //printRes
+            res.add(convert(nums));
+            total++;
             return;
         }
         for (int curCol = 0; curCol < nums[0].length; curCol++) {
@@ -59,7 +62,7 @@ public class Solution {
         //右对角线
         tmpRow = curRow - 1;
         tmpCol = curCol + 1;
-        while(tmpRow < nums.length && tmpCol < nums.length) {
+        while(tmpRow >= 0 && tmpCol < nums.length) {
             if (nums[tmpRow][tmpCol]) {
                 return false;
             }
@@ -69,15 +72,30 @@ public class Solution {
         return true;
     }
 
-    public static void main(String[] args) {
-        boolean[][] nums = new boolean[3][3];
-        nums[0][0] = true;
+    private static List<String> convert(boolean[][] nums) {
+        List<String> tmpList = new ArrayList<>();
+        StringBuilder sb = new StringBuilder();
         for(int i = 0;i<nums.length;i++){
             for(int j=0;j<nums[0].length;j++) {
-                isValid(nums,i,j);
-                System.out.print(nums[i][j] + " ");
+                if(nums[i][j]){
+                    sb.append("Q");
+                } else {
+                    sb.append(".");
+                }
+            }
+        }
+        tmpList.add(sb.toString());
+        return tmpList;
+    }
+
+    public static void main(String[] args) {
+        List<List<String>> res = solveNQueens(7);
+        System.out.println(total);
+        res.forEach(item -> {
+            for(int i = 0; i < item.size(); i++) {
+                System.out.print(item.get(i) + " ");
             }
             System.out.println("");
-        }
+        });
     }
 }
