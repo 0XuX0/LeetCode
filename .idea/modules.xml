@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/46.Permute/46.Permute.iml" filepath="$PROJECT_DIR$/46.Permute/46.Permute.iml" />
       <module fileurl="file://$PROJECT_DIR$/47.permuteUnique/47.permuteUnique.iml" filepath="$PROJECT_DIR$/47.permuteUnique/47.permuteUnique.iml" />
       <module fileurl="file://$PROJECT_DIR$/48.Rotate/48.Rotate.iml" filepath="$PROJECT_DIR$/48.Rotate/48.Rotate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/51.SolveNQueens/51.SolveNQueens.iml" filepath="$PROJECT_DIR$/51.SolveNQueens/51.SolveNQueens.iml" />
       <module fileurl="file://$PROJECT_DIR$/92.ReverseBetween/92.ReverseBetween.iml" filepath="$PROJECT_DIR$/92.ReverseBetween/92.ReverseBetween.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode.iml" />
     </modules>
