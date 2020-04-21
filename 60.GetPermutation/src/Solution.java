@@ -9,6 +9,7 @@ import java.util.List;
  **/
 public class Solution {
     public static String getPermutation(int n, int k) {
+        StringBuilder sb = new StringBuilder();
         k = k - 1;
         List<Integer> nums = new ArrayList<>();
         List<Integer> res = new ArrayList<>();
@@ -21,12 +22,12 @@ public class Solution {
 
             quotient = k / factorial;
 
-            res.add(nums.get(quotient));
+            sb.append(nums.get(quotient));
             nums.remove(quotient);
             k -= factorial * quotient;
             n -= 1;
         }
-        return res.toString();
+        return sb.toString();
     }
 
     private static int getFactorial(int n) {
