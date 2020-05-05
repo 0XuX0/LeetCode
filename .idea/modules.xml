@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/146.LRUcache/146.LRUcache.iml" filepath="$PROJECT_DIR$/146.LRUcache/146.LRUcache.iml" />
       <module fileurl="file://$PROJECT_DIR$/22.generateParenthesis/22.generateParenthesis.iml" filepath="$PROJECT_DIR$/22.generateParenthesis/22.generateParenthesis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/31.nextPermutation/31.nextPermutation.iml" filepath="$PROJECT_DIR$/31.nextPermutation/31.nextPermutation.iml" />
       <module fileurl="file://$PROJECT_DIR$/322.CoinChange/322.CoinChange.iml" filepath="$PROJECT_DIR$/322.CoinChange/322.CoinChange.iml" />
       <module fileurl="file://$PROJECT_DIR$/39.CombinationSum/39.CombinationSum.iml" filepath="$PROJECT_DIR$/39.CombinationSum/39.CombinationSum.iml" />
       <module fileurl="file://$PROJECT_DIR$/40.CombinationSum2/40.CombinationSum2.iml" filepath="$PROJECT_DIR$/40.CombinationSum2/40.CombinationSum2.iml" />
