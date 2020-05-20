@@ -8,6 +8,9 @@
 public class Solution {
 
     public static TreeNode buildTree(int[] preorder, int[] inorder) {
+        if(preorder.length == 0 || inorder.length == 0) {
+            return null;
+        }
         int rootPos = findRootIndex(inorder, preorder[0]);
         TreeNode root = new TreeNode();
         root.val = preorder[0];
@@ -26,9 +29,9 @@ public class Solution {
         subRoot.val = preorder[preorderStart];
         int subRootPos = findRootIndex(inorder,preorder[preorderStart]);
 
-        subRoot.left = buildSubTree(preorder, inorder, inorderStart, subRootPos - 1, preorderStart + 1, subRootPos - inorderStart - 1 + preorderStart);
+        subRoot.left = buildSubTree(preorder, inorder, inorderStart, subRootPos - 1, preorderStart + 1, subRootPos - inorderStart + preorderStart);
 
-        subRoot.right = buildSubTree(preorder, inorder, subRootPos + 1, inorderEnd, inorderEnd - inorderStart - 1 + preorderStart, preorderEnd);
+        subRoot.right = buildSubTree(preorder, inorder, subRootPos + 1, inorderEnd, subRootPos - inorderStart + preorderStart + 1, preorderEnd);
 
         return subRoot;
     }
