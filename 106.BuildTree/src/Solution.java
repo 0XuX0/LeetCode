@@ -13,25 +13,25 @@ public class Solution {
         int rootPos = findRootIndex(inorder, postorder[postorder.length - 1]);
         TreeNode root = new TreeNode();
         root.val = postorder[postorder.length - 1];
-        root.right = buildSubTree(postorder, inorder, rootPos + 1, inorder.length - 1, rootPos + 1, inorder.length - 1);
-        root.left = buildSubTree(postorder, inorder, 0, rootPos - 1, 1, rootPos);
+        root.right = buildSubTree(postorder, inorder, rootPos + 1, inorder.length - 1, postorder.length - inorder.length  + rootPos, postorder.length - 2);
+        root.left = buildSubTree(postorder, inorder, 0, rootPos - 1, 0, rootPos - 1);
         return root;
     }
 
 
-    private static TreeNode buildSubTree(int[] preorder, int[] inorder, int inorderStart, int inorderEnd, int preorderStart, int preorderEnd) {
+    private static TreeNode buildSubTree(int[] postorder, int[] inorder, int inorderStart, int inorderEnd, int postorderStart, int postorderEnd) {
 
-        if(inorderStart > inorderEnd || preorderStart > preorderEnd) {
+        if(inorderStart > inorderEnd || postorderStart > postorderEnd) {
             return null;
         }
 
         TreeNode subRoot = new TreeNode();
-        subRoot.val = preorder[preorderStart];
-        int subRootPos = findRootIndex(inorder,preorder[preorderStart]);
+        subRoot.val = postorder[postorderEnd];
+        int subRootPos = findRootIndex(inorder,postorder[postorderEnd]);
 
-        subRoot.left = buildSubTree(preorder, inorder, inorderStart, subRootPos - 1, preorderStart + 1, subRootPos - inorderStart + preorderStart);
+        subRoot.right = buildSubTree(postorder, inorder, subRootPos + 1, inorderEnd, postorderEnd - inorderEnd  + subRootPos, postorderEnd - 1);
 
-        subRoot.right = buildSubTree(preorder, inorder, subRootPos + 1, inorderEnd, subRootPos - inorderStart + preorderStart + 1, preorderEnd);
+        subRoot.left = buildSubTree(postorder, inorder, inorderStart, subRootPos - 1, postorderStart, postorderEnd - inorderEnd + subRootPos - 1);
 
         return subRoot;
     }
@@ -43,5 +43,12 @@ public class Solution {
             }
         }
         return -1;
+    }
+
+    public static void main(String[] args) {
+        int[] postorder = {1,3,2,5,7,6,10,9,8,4};
+        int[] inorder = {1,2,3,4,5,6,7,8,9,10};
+        TreeNode root = buildTree(inorder, postorder);
+        System.out.println("end");
     }
 }
