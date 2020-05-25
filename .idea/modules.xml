@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/105.buildTree/105.buildTree.iml" filepath="$PROJECT_DIR$/105.buildTree/105.buildTree.iml" />
       <module fileurl="file://$PROJECT_DIR$/106.BuildTree/106.BuildTree.iml" filepath="$PROJECT_DIR$/106.BuildTree/106.BuildTree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/108.sortedArrayToBST/108.sortedArrayToBST.iml" filepath="$PROJECT_DIR$/108.sortedArrayToBST/108.sortedArrayToBST.iml" />
       <module fileurl="file://$PROJECT_DIR$/146.LRUcache/146.LRUcache.iml" filepath="$PROJECT_DIR$/146.LRUcache/146.LRUcache.iml" />
       <module fileurl="file://$PROJECT_DIR$/22.generateParenthesis/22.generateParenthesis.iml" filepath="$PROJECT_DIR$/22.generateParenthesis/22.generateParenthesis.iml" />
       <module fileurl="file://$PROJECT_DIR$/31.nextPermutation/31.nextPermutation.iml" filepath="$PROJECT_DIR$/31.nextPermutation/31.nextPermutation.iml" />
@@ -19,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/51.SolveNQueens/51.SolveNQueens.iml" filepath="$PROJECT_DIR$/51.SolveNQueens/51.SolveNQueens.iml" />
       <module fileurl="file://$PROJECT_DIR$/60.GetPermutation/60.GetPermutation.iml" filepath="$PROJECT_DIR$/60.GetPermutation/60.GetPermutation.iml" />
       <module fileurl="file://$PROJECT_DIR$/92.ReverseBetween/92.ReverseBetween.iml" filepath="$PROJECT_DIR$/92.ReverseBetween/92.ReverseBetween.iml" />
+      <module fileurl="file://$PROJECT_DIR$/98.IsValidBST/98.IsValidBST.iml" filepath="$PROJECT_DIR$/98.IsValidBST/98.IsValidBST.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode.iml" />
     </modules>
   </component>
