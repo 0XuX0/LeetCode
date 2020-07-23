@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/114.Flatten/114.Flatten.iml" filepath="$PROJECT_DIR$/114.Flatten/114.Flatten.iml" />
       <module fileurl="file://$PROJECT_DIR$/115.Connect/115.Connect.iml" filepath="$PROJECT_DIR$/115.Connect/115.Connect.iml" />
       <module fileurl="file://$PROJECT_DIR$/117.Connect/117.Connect.iml" filepath="$PROJECT_DIR$/117.Connect/117.Connect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/120.MinimumTotal/120.MinimumTotal.iml" filepath="$PROJECT_DIR$/120.MinimumTotal/120.MinimumTotal.iml" />
       <module fileurl="file://$PROJECT_DIR$/146.LRUcache/146.LRUcache.iml" filepath="$PROJECT_DIR$/146.LRUcache/146.LRUcache.iml" />
       <module fileurl="file://$PROJECT_DIR$/22.generateParenthesis/22.generateParenthesis.iml" filepath="$PROJECT_DIR$/22.generateParenthesis/22.generateParenthesis.iml" />
       <module fileurl="file://$PROJECT_DIR$/31.nextPermutation/31.nextPermutation.iml" filepath="$PROJECT_DIR$/31.nextPermutation/31.nextPermutation.iml" />
