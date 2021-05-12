@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/112.HasPathSum/112.HasPathSum.iml" filepath="$PROJECT_DIR$/112.HasPathSum/112.HasPathSum.iml" />
       <module fileurl="file://$PROJECT_DIR$/113.PathSum/113.PathSum.iml" filepath="$PROJECT_DIR$/113.PathSum/113.PathSum.iml" />
       <module fileurl="file://$PROJECT_DIR$/114.Flatten/114.Flatten.iml" filepath="$PROJECT_DIR$/114.Flatten/114.Flatten.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1143.LongestCommonSubsequence/1143.LongestCommonSubsequence.iml" filepath="$PROJECT_DIR$/1143.LongestCommonSubsequence/1143.LongestCommonSubsequence.iml" />
       <module fileurl="file://$PROJECT_DIR$/115.Connect/115.Connect.iml" filepath="$PROJECT_DIR$/115.Connect/115.Connect.iml" />
       <module fileurl="file://$PROJECT_DIR$/117.Connect/117.Connect.iml" filepath="$PROJECT_DIR$/117.Connect/117.Connect.iml" />
       <module fileurl="file://$PROJECT_DIR$/120.MinimumTotal/120.MinimumTotal.iml" filepath="$PROJECT_DIR$/120.MinimumTotal/120.MinimumTotal.iml" />
@@ -19,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/198.Rob/198.Rob.iml" filepath="$PROJECT_DIR$/198.Rob/198.Rob.iml" />
       <module fileurl="file://$PROJECT_DIR$/213.Rob2/213.Rob2.iml" filepath="$PROJECT_DIR$/213.Rob2/213.Rob2.iml" />
       <module fileurl="file://$PROJECT_DIR$/22.generateParenthesis/22.generateParenthesis.iml" filepath="$PROJECT_DIR$/22.generateParenthesis/22.generateParenthesis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/300.LengthOfLIS/300.LengthOfLIS.iml" filepath="$PROJECT_DIR$/300.LengthOfLIS/300.LengthOfLIS.iml" />
       <module fileurl="file://$PROJECT_DIR$/31.nextPermutation/31.nextPermutation.iml" filepath="$PROJECT_DIR$/31.nextPermutation/31.nextPermutation.iml" />
       <module fileurl="file://$PROJECT_DIR$/322.CoinChange/322.CoinChange.iml" filepath="$PROJECT_DIR$/322.CoinChange/322.CoinChange.iml" />
       <module fileurl="file://$PROJECT_DIR$/337.Rob3/337.Rob3.iml" filepath="$PROJECT_DIR$/337.Rob3/337.Rob3.iml" />
@@ -32,6 +34,7 @@
       <module fileurl="file://$PROJECT_DIR$/509.Fib/509.Fib.iml" filepath="$PROJECT_DIR$/509.Fib/509.Fib.iml" />
       <module fileurl="file://$PROJECT_DIR$/51.SolveNQueens/51.SolveNQueens.iml" filepath="$PROJECT_DIR$/51.SolveNQueens/51.SolveNQueens.iml" />
       <module fileurl="file://$PROJECT_DIR$/60.GetPermutation/60.GetPermutation.iml" filepath="$PROJECT_DIR$/60.GetPermutation/60.GetPermutation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/72.MinDistance/72.MinDistance.iml" filepath="$PROJECT_DIR$/72.MinDistance/72.MinDistance.iml" />
       <module fileurl="file://$PROJECT_DIR$/92.ReverseBetween/92.ReverseBetween.iml" filepath="$PROJECT_DIR$/92.ReverseBetween/92.ReverseBetween.iml" />
       <module fileurl="file://$PROJECT_DIR$/98.IsValidBST/98.IsValidBST.iml" filepath="$PROJECT_DIR$/98.IsValidBST/98.IsValidBST.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode.iml" />
