@@ -12,7 +12,6 @@ import java.util.Set;
 public class Solution {
 
     public static int lengthOfLongestSubstring(String s) {
-        Map<Character, Integer> need = new HashMap<>();
         Map<Character, Integer> window = new HashMap<>();
         int max = 0;
         int left = 0, right = 0;
@@ -24,7 +23,7 @@ public class Solution {
             // 窗口右边界右移
             window.put(c, window.getOrDefault(c,0) + 1);
 
-            if (window.containsValue(2)) {
+            while (window.containsValue(2)) {
               Character d = s.charAt(left);
               left++;
               window.put(d, window.get(d) - 1);
@@ -35,7 +34,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        String s = "pwwkew";
+        String s = "pwwwkew";
         System.out.println(lengthOfLongestSubstring(s));
     }
 }
