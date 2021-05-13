@@ -31,9 +31,10 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello World");
-        int[] nums = {2,3,1,1,4};
-        int res = jump(nums);
-        System.out.println(res);
+//        System.out.println("Hello World");
+//        int[] nums = {2,3,1,1,4};
+//        int res = jump(nums);
+//        System.out.println(res);
+        String a = "abc";
     }
 }

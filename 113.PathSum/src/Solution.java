@@ -8,7 +8,7 @@ import java.util.List;
  * @Date 2020/6/28
  **/
 public class Solution {
-    public static List<List<Integer>> path = new ArrayList<>();
+
     public static List<List<Integer>> pathSum(TreeNode root, int sum) {
         if (root == null) {
             return path;

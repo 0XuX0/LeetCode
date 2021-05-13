@@ -40,6 +40,9 @@
       <module fileurl="file://$PROJECT_DIR$/72.MinDistance/72.MinDistance.iml" filepath="$PROJECT_DIR$/72.MinDistance/72.MinDistance.iml" />
       <module fileurl="file://$PROJECT_DIR$/92.ReverseBetween/92.ReverseBetween.iml" filepath="$PROJECT_DIR$/92.ReverseBetween/92.ReverseBetween.iml" />
       <module fileurl="file://$PROJECT_DIR$/98.IsValidBST/98.IsValidBST.iml" filepath="$PROJECT_DIR$/98.IsValidBST/98.IsValidBST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HWTest/HWTest.iml" filepath="$PROJECT_DIR$/HWTest/HWTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HWTest1/HWTest1.iml" filepath="$PROJECT_DIR$/HWTest1/HWTest1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HWTest2/HWTest2.iml" filepath="$PROJECT_DIR$/HWTest2/HWTest2.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode.iml" />
     </modules>
   </component>

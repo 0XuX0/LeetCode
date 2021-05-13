@@ -1,5 +1,8 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+import java.util.concurrent.Callable;
+import java.util.concurrent.locks.StampedLock;
 
 /**
  * @ClassName Solution
@@ -65,6 +68,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+        Collections
         int[] nums = {1,2,3};
         List<List<Integer>> res = permute(nums);
         res.forEach(item -> {
