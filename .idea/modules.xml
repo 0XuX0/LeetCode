@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/1.NSum/1.NSum.iml" filepath="$PROJECT_DIR$/1.NSum/1.NSum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/101.IsSymmetric/101.IsSymmetric.iml" filepath="$PROJECT_DIR$/101.IsSymmetric/101.IsSymmetric.iml" />
+      <module fileurl="file://$PROJECT_DIR$/102.LevelOrder/102.LevelOrder.iml" filepath="$PROJECT_DIR$/102.LevelOrder/102.LevelOrder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/103.ZigzagLevelOrder/103.ZigzagLevelOrder.iml" filepath="$PROJECT_DIR$/103.ZigzagLevelOrder/103.ZigzagLevelOrder.iml" />
       <module fileurl="file://$PROJECT_DIR$/105.buildTree/105.buildTree.iml" filepath="$PROJECT_DIR$/105.buildTree/105.buildTree.iml" />
       <module fileurl="file://$PROJECT_DIR$/106.BuildTree/106.BuildTree.iml" filepath="$PROJECT_DIR$/106.BuildTree/106.BuildTree.iml" />
       <module fileurl="file://$PROJECT_DIR$/108.sortedArrayToBST/108.sortedArrayToBST.iml" filepath="$PROJECT_DIR$/108.sortedArrayToBST/108.sortedArrayToBST.iml" />
@@ -17,13 +20,18 @@
       <module fileurl="file://$PROJECT_DIR$/120.MinimumTotal/120.MinimumTotal.iml" filepath="$PROJECT_DIR$/120.MinimumTotal/120.MinimumTotal.iml" />
       <module fileurl="file://$PROJECT_DIR$/121.MaxProfit/121.MaxProfit.iml" filepath="$PROJECT_DIR$/121.MaxProfit/121.MaxProfit.iml" />
       <module fileurl="file://$PROJECT_DIR$/129. SumNumbers/129. SumNumbers.iml" filepath="$PROJECT_DIR$/129. SumNumbers/129. SumNumbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/138.CopyRandomList/138.CopyRandomList.iml" filepath="$PROJECT_DIR$/138.CopyRandomList/138.CopyRandomList.iml" />
       <module fileurl="file://$PROJECT_DIR$/141.HasCycle/141.HasCycle.iml" filepath="$PROJECT_DIR$/141.HasCycle/141.HasCycle.iml" />
       <module fileurl="file://$PROJECT_DIR$/146.LRUcache/146.LRUcache.iml" filepath="$PROJECT_DIR$/146.LRUcache/146.LRUcache.iml" />
       <module fileurl="file://$PROJECT_DIR$/167.TwoSum/167.TwoSum.iml" filepath="$PROJECT_DIR$/167.TwoSum/167.TwoSum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/191.HammingWeight/191.HammingWeight.iml" filepath="$PROJECT_DIR$/191.HammingWeight/191.HammingWeight.iml" />
       <module fileurl="file://$PROJECT_DIR$/198.Rob/198.Rob.iml" filepath="$PROJECT_DIR$/198.Rob/198.Rob.iml" />
       <module fileurl="file://$PROJECT_DIR$/2.AddTwoNumbers/2.AddTwoNumbers.iml" filepath="$PROJECT_DIR$/2.AddTwoNumbers/2.AddTwoNumbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/206.ReverseList/206.ReverseList.iml" filepath="$PROJECT_DIR$/206.ReverseList/206.ReverseList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/21.MergeTwoLists/21.MergeTwoLists.iml" filepath="$PROJECT_DIR$/21.MergeTwoLists/21.MergeTwoLists.iml" />
       <module fileurl="file://$PROJECT_DIR$/213.Rob2/213.Rob2.iml" filepath="$PROJECT_DIR$/213.Rob2/213.Rob2.iml" />
       <module fileurl="file://$PROJECT_DIR$/22.generateParenthesis/22.generateParenthesis.iml" filepath="$PROJECT_DIR$/22.generateParenthesis/22.generateParenthesis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/226.InvertTree/226.InvertTree.iml" filepath="$PROJECT_DIR$/226.InvertTree/226.InvertTree.iml" />
       <module fileurl="file://$PROJECT_DIR$/3.LengthOfLongestSubstring/3.LengthOfLongestSubstring.iml" filepath="$PROJECT_DIR$/3.LengthOfLongestSubstring/3.LengthOfLongestSubstring.iml" />
       <module fileurl="file://$PROJECT_DIR$/300.LengthOfLIS/300.LengthOfLIS.iml" filepath="$PROJECT_DIR$/300.LengthOfLIS/300.LengthOfLIS.iml" />
       <module fileurl="file://$PROJECT_DIR$/31.nextPermutation/31.nextPermutation.iml" filepath="$PROJECT_DIR$/31.nextPermutation/31.nextPermutation.iml" />
@@ -34,17 +42,22 @@
       <module fileurl="file://$PROJECT_DIR$/4.FindMedianSortedArrays/4.FindMedianSortedArrays.iml" filepath="$PROJECT_DIR$/4.FindMedianSortedArrays/4.FindMedianSortedArrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/40.CombinationSum2/40.CombinationSum2.iml" filepath="$PROJECT_DIR$/40.CombinationSum2/40.CombinationSum2.iml" />
       <module fileurl="file://$PROJECT_DIR$/42.Trap/42.Trap.iml" filepath="$PROJECT_DIR$/42.Trap/42.Trap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/426.TreeToDoublyList/426.TreeToDoublyList.iml" filepath="$PROJECT_DIR$/426.TreeToDoublyList/426.TreeToDoublyList.iml" />
       <module fileurl="file://$PROJECT_DIR$/45.Jump/45.Jump.iml" filepath="$PROJECT_DIR$/45.Jump/45.Jump.iml" />
       <module fileurl="file://$PROJECT_DIR$/46.Permute/46.Permute.iml" filepath="$PROJECT_DIR$/46.Permute/46.Permute.iml" />
       <module fileurl="file://$PROJECT_DIR$/47.permuteUnique/47.permuteUnique.iml" filepath="$PROJECT_DIR$/47.permuteUnique/47.permuteUnique.iml" />
       <module fileurl="file://$PROJECT_DIR$/48.Rotate/48.Rotate.iml" filepath="$PROJECT_DIR$/48.Rotate/48.Rotate.iml" />
       <module fileurl="file://$PROJECT_DIR$/5.LongestPalindrome/5.LongestPalindrome.iml" filepath="$PROJECT_DIR$/5.LongestPalindrome/5.LongestPalindrome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/50.MyPow/50.MyPow.iml" filepath="$PROJECT_DIR$/50.MyPow/50.MyPow.iml" />
       <module fileurl="file://$PROJECT_DIR$/509.Fib/509.Fib.iml" filepath="$PROJECT_DIR$/509.Fib/509.Fib.iml" />
       <module fileurl="file://$PROJECT_DIR$/51.SolveNQueens/51.SolveNQueens.iml" filepath="$PROJECT_DIR$/51.SolveNQueens/51.SolveNQueens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/54.SpiralOrder/54.SpiralOrder.iml" filepath="$PROJECT_DIR$/54.SpiralOrder/54.SpiralOrder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/572.IsSubTree/572.IsSubTree.iml" filepath="$PROJECT_DIR$/572.IsSubTree/572.IsSubTree.iml" />
       <module fileurl="file://$PROJECT_DIR$/60.GetPermutation/60.GetPermutation.iml" filepath="$PROJECT_DIR$/60.GetPermutation/60.GetPermutation.iml" />
       <module fileurl="file://$PROJECT_DIR$/72.MinDistance/72.MinDistance.iml" filepath="$PROJECT_DIR$/72.MinDistance/72.MinDistance.iml" />
       <module fileurl="file://$PROJECT_DIR$/79.Exist/79.Exist.iml" filepath="$PROJECT_DIR$/79.Exist/79.Exist.iml" />
       <module fileurl="file://$PROJECT_DIR$/92.ReverseBetween/92.ReverseBetween.iml" filepath="$PROJECT_DIR$/92.ReverseBetween/92.ReverseBetween.iml" />
+      <module fileurl="file://$PROJECT_DIR$/946.ValidateStackSequences/946.ValidateStackSequences.iml" filepath="$PROJECT_DIR$/946.ValidateStackSequences/946.ValidateStackSequences.iml" />
       <module fileurl="file://$PROJECT_DIR$/98.IsValidBST/98.IsValidBST.iml" filepath="$PROJECT_DIR$/98.IsValidBST/98.IsValidBST.iml" />
       <module fileurl="file://$PROJECT_DIR$/HWTest/HWTest.iml" filepath="$PROJECT_DIR$/HWTest/HWTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/HWTest1/HWTest1.iml" filepath="$PROJECT_DIR$/HWTest1/HWTest1.iml" />

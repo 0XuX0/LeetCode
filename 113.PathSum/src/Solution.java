@@ -9,6 +9,8 @@ import java.util.List;
  **/
 public class Solution {
 
+    static List<List<Integer>> path = new ArrayList<>();
+
     public static List<List<Integer>> pathSum(TreeNode root, int sum) {
         if (root == null) {
             return path;
