@@ -46,6 +46,7 @@
       <module fileurl="file://$PROJECT_DIR$/HWTest1/HWTest1.iml" filepath="$PROJECT_DIR$/HWTest1/HWTest1.iml" />
       <module fileurl="file://$PROJECT_DIR$/HWTest2/HWTest2.iml" filepath="$PROJECT_DIR$/HWTest2/HWTest2.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SO.40.GetLeastNumbers/SO.40.GetLeastNumbers.iml" filepath="$PROJECT_DIR$/SO.40.GetLeastNumbers/SO.40.GetLeastNumbers.iml" />
     </modules>
   </component>
 </project>
