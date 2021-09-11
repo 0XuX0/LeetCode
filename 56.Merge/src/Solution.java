@@ -21,7 +21,7 @@ public class Solution {
         return Arrays.copyOf(res, idx + 1);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {.idea/modules.xml.idea/modules.xml
         int[][] test = new int[3][2];
         test[0][0] = 1;
         test[0][1] = 3;
