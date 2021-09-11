@@ -57,20 +57,63 @@ public class Solution {
         return head;
     }
 
+    public static ListNode reverseBetween1(ListNode head, int m, int n) {
+        if (head == null) return null;
+        if (m == n) return head;
+        int curPos = 1;
+        ListNode dummy = new ListNode(-1);
+        dummy.next = head;
+        ListNode prev = dummy;
+        ListNode curr = head;
+        // 旋转的前一个节点
+        ListNode tempStart = new ListNode(-1);
+        // 旋转后的最后一个节点
+        ListNode tempStart2 = new ListNode(-1);
+
+        while(curr != null) {
+            if (curPos == m) {
+                tempStart.next = prev;
+                tempStart2.next = curr;
+            } else if (curPos > m && curPos < n) {
+                ListNode nxt = curr.next;
+                curr.next = prev;
+                prev = curr;
+                curr = nxt;
+                curPos++;
+                continue;
+            } else if (curPos == n) {
+                ListNode nxt = curr.next;
+                curr.next = prev;
+                tempStart.next.next = curr;
+                tempStart2.next.next = nxt;
+                break;
+            }
+            curr = curr.next;
+            prev = prev.next;
+            curPos++;
+        }
+        return dummy.next;
+    }
+
     public static void main(String[] args) {
-        ListNode head = new ListNode(0);
-        ListNode n1 = new ListNode(1);
-        ListNode n2 = new ListNode(2);
-        ListNode n3 = new ListNode(3);
-        ListNode n4 = new ListNode(4);
+        ListNode head = new ListNode(1);
+        ListNode n1 = new ListNode(2);
+        ListNode n2 = new ListNode(3);
+        ListNode n3 = new ListNode(4);
+        ListNode n4 = new ListNode(5);
+        ListNode n5 = new ListNode(6);
+        ListNode n6 = new ListNode(7);
+
         head.next = n1;
         n1.next = n2;
         n2.next = n3;
         n3.next = n4;
+        n4.next = n5;
+        n5.next = n6;
 
-        ListNode p = reverseBetween(head, 1,5);
+        ListNode p = reverseBetween1(head, 1,7);
         while(p != null) {
-            System.out.println(p.val);
+            System.out.print(p.val + " ");
             p = p.next;
         }
     }

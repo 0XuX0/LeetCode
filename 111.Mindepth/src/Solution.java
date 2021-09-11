@@ -1,3 +1,6 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * @ClassName Solution
  * @Description TODO
@@ -33,20 +36,46 @@ public class Solution {
         return left < right ? left + 1 : right + 1;
     }
 
+    // bfs
+    private static int method2 (TreeNode node) {
+        if (node == null) return 0;
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(node);
+        int depth = 1;
+        while (!queue.isEmpty()) {
+            int sz = queue.size(); //保证本次遍历只遍历本层所有节点
+            for (int i = 0; i < sz; i++) {
+                TreeNode tmp = queue.poll();
+                if (tmp.left == null && tmp.right == null) {
+                    return depth;
+                }
+                if(tmp.left != null) {
+                    queue.add(tmp.left);
+                }
+                if (tmp.right != null) {
+                    queue.add(tmp.right);
+                }
+            }
+            depth++;
+        }
+        return depth;
+    }
+
+
     public static void main(String[] args) {
-        TreeNode root = new TreeNode();
-        root.val = 1;
-        TreeNode l1 = new TreeNode();
-        l1.val = 2;
-        TreeNode l2 = new TreeNode();
-        l2.val = 3;
-        TreeNode r1 = new TreeNode();
-        r1.val = 4;
+        TreeNode node1 = new TreeNode(1);
+        TreeNode node2 = new TreeNode(2);
+        TreeNode node3 = new TreeNode(3);
+        TreeNode node4 = new TreeNode(4);
+        TreeNode node5 = new TreeNode(5);
 
-        root.left = l1;
-        l1.left = l2;
-        root.right = r1;
 
-        System.out.println(mindepth(root));
+        node1.left = node2;
+        node1.right = node3;
+        node2.left = node4;
+        node2.right = node5;
+
+//        System.out.println(mindepth(root));
+        System.out.println(method2(node1));
     }
 }

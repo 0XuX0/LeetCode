@@ -1,3 +1,6 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * @ClassName Solution
  * @Description TODO
@@ -5,6 +8,7 @@
  * @Date 2020/6/28
  **/
 public class Solution {
+    // 完美二叉树
     public static Node connect(Node root) {
         if (root == null) {
             return null;
@@ -37,6 +41,25 @@ public class Solution {
             after = after.left;
         }
         pre.next = after;
+    }
+
+    public static Node connect2(Node root) {
+        if (root == null) return null;
+        Queue<Node> queue = new LinkedList<>();
+        queue.add(root);
+
+        while(!queue.isEmpty()) {
+            int sz = queue.size();
+            for (int i = 0; i < sz; i++) {
+                Node tmp = queue.poll();
+                if(i < sz - 1) {
+                    tmp.next = queue.peek();
+                }
+                if(tmp.left != null) queue.add(tmp.left);
+                if(tmp.right != null) queue.add(tmp.right);
+            }
+        }
+        return root;
     }
 
     public static void main(String[] args) {

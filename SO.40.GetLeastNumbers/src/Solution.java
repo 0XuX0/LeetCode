@@ -1,6 +1,4 @@
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.PriorityQueue;
+import java.util.*;
 
 /**
  * @ClassName Solution
@@ -19,7 +17,7 @@ public class Solution {
 //        Arrays.sort(arr);
 //        int[] res = new int[k];
 //        for (int i = 0; i < k; i++) {
-//            res[i] = arr[i];
+//            res[i] = arr[;
 //        }
 //        return res;
 //    }
@@ -119,6 +117,58 @@ public class Solution {
         return pre;
     }
 
+
+
+    // 查找目标节点的后继节点
+    public static TreeNode findNextNode(TreeNode root, TreeNode target) {
+        if(root == null) return null;
+        path.push(root);
+        return find(root, target);
+    }
+
+    public static Stack<TreeNode> path = new Stack<>();
+    private static TreeNode find(TreeNode node, TreeNode target) {
+        if (node == null) return null;
+        TreeNode res;
+        if (node.val == target.val) {
+            TreeNode grandParent = null;
+            for(int i = 0; i < 2; i++) {
+                if (!path.isEmpty()) {
+                    path.pop();
+                }
+            }
+            if (!path.isEmpty()) {
+                grandParent = path.peek();
+            }
+            return findNext(node, grandParent);
+        }
+        path.push(node.left);
+        res = find(node.left, target);
+        if (res == null) {
+            path.pop();
+            res = find(node.right, target);
+        }
+        return res;
+    }
+
+    private static TreeNode findNext(TreeNode node, TreeNode grandFather) {
+        if (node.right == null) {
+            if (grandFather == null) {
+                return null;
+            } else if (grandFather.left != null && grandFather.left.right == node){
+                return grandFather;
+            } else {
+                return null;
+            }
+        } else {
+            node = node.right;
+        }
+        while (node.left != null) {
+            node = node.left;
+        }
+        return node;
+    }
+
     public static void main(String[] args) {
 
 //        int[] arr = new int[] {7,3,1,2,9,5};
@@ -127,16 +177,19 @@ public class Solution {
 //            System.out.print(t);
 //        }
 
-        ListNode head = new ListNode(0);
-        ListNode node1 = new ListNode(1);
-        ListNode node2 = new ListNode(2);
+        TreeNode root = new TreeNode(5);
+        TreeNode l1 = new TreeNode(3);
+        TreeNode r1 = new TreeNode(7);
+        TreeNode lr1 = new TreeNode(4);
 
-        head.next = node1;
-        node1.next = node2;
+        root.left = l1;
+        root.right = r1;
 
+        l1.right = lr1;
 
+        TreeNode target = new TreeNode(4);
 
-
-
+        TreeNode res = findNextNode(root, target);
+        System.out.println(res.val);
     }
 }
